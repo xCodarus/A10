@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Plant Screen</title>	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- gives browser instructions on how to control
+	page dimensions and scaling -->
+	
+
+	<link href="/css/bootstrap.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="/css/newCSS.css" rel="stylesheet">
+</head>
+<body>
+	<div class="text-center">
+	  	<div class="col">
+      		<h1>Your Plant with {{friendName}}</h1>
+      		<hr>
+    	</div>
+	
+	
+	<div class = "plantContainer sharedStaySame" id="sharedStaySame">
+	<img class= "img-responsive" src="/images/Seed{{plantScore}}.png" ... />
+	</div>
+
+<!--
+    <div class="sharedStaySame" id="sharedStaySame">
+      <img class= "img-responsive" src="/images/seed.png" ... />
+    </div>
+-->
+
+<!--
+
+	<div class = "plantStaySame" id="plantStaySame">
+		<img class="img-responsive" src = "/images/seed.png">
+	</div>
+-->
+
+		<div class = "row" style="margin-top: -50px">
+			<div class = "col-md-6 col-sm-6 col-xs-6">
+				<h4>{{friendName}}:</h4>
+				<h5>{{friendScore}}/8</h5>
+			</div>
+			<div class = "col-md-6 col-sm-6 col-xs-6">
+				<h4>Me:</h4>
+				<h5>{{userScore}}/8</h5>
+			</div>
+		</div>
+		 <a href="/archive"><button style="margin-top: 10px; margin-bottom: 100px" class="btn button3">Past Plants</button></a>
+	</div>
+
+	  <nav class="borderingNav navbar navbar-default navbar-fixed-bottom" style="background: #D5DFB9">
+      <div class = "row">
+        
+          <a href="/sip"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">My Progress</button></a>
+          <a href="/friends"><button type="button" class="thatPadding btn navbar-btn button1 col-md-6 col-sm-6 col-xs-6">Friends</button></a>
+  </nav>
+
+
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+	<script src= "js/bootstrap.js"></script>
+	<script src="data.json"></script>
+
+</body>
+</html>

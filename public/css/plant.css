@@ -1,0 +1,135 @@
+/*.container {
+  text-align: center;
+  border: 3px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 100%;
+}*/
+
+.header {
+  text-align: center;
+  border: 3px solid green;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+i {
+  border: solid black; 
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px 10px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+  
+}
+ 
+.leftArrow {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  top: 3px;
+  right: 140px;
+}
+
+hr {
+  display: block;
+  margin-top: 1.1em;
+  margin-bottom: 2.5em;
+  margin-left: block;
+  margin-right: block;
+  border-style: inset;
+  border-width: 2px;
+  border: solid black; 
+}
+.pot {
+  width: 35%;
+}
+
+.cup {
+  width: 35%;
+  margin-bottom: 4em;
+}
+
+img {
+  margin-top: 3em;
+  height: 45%;
+  width: 35%;
+  /*
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1); 
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  */
+}
+
+.btn-group button {
+  background-color: white; /* Green background */
+  border: 2px solid #e7e7e7 /* Green border */
+  color: black; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #008CBA;
+}
+
+
+.inLine {
+  margin-top: -20px;
+  padding-bottom: 15px;
+  overflow: auto;
+  clear: left;
+}
+.right {
+  margin-left: 250px;
+}
+
+.left {
+  margin-right: 250px;
+  margin-top: -55px;
+	
+}
+
+.friend {
+  margin: none;
+  border: 1px solid #000000;
+}
+
+.friendBorder {
+  margin: none;
+  border: 1px solid #000000;
+  padding: 80px;
+}
+
+.friend-list {
+  overflow-y: scroll;
+  height: 75%;
+  width: 100%;
+}
+
+body{
+    overflow-x:hidden;
+}
+

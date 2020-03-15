@@ -1,0 +1,39 @@
+{
+	"users": [
+		{
+			"name": "Sarah",
+			"password": "password",
+			"growth": 8,
+			"isUser": false,
+			"countMax": false
+		},
+		{
+			"name": "Jae",
+			"password": "password",
+			"growth": 6,
+			"isUser": false,
+			"countMax": false
+		},
+		{
+			"name": "Sophie",
+			"password": "password",
+			"growth": 4,
+			"isUser": false,
+			"countMax": false
+		},
+		{
+			"name": "David",
+			"password": "password",
+			"growth": 3,
+			"isUser": false,
+			"countMax": false
+		},
+		{
+			"name": "Test",
+			"password": "password",
+			"growth": 0,
+			"isUser": false,
+			"countMax": false
+		}
+	]
+}
