@@ -22,4 +22,5 @@ exports.auth = function(req, res) {
 			break;
 		}
 	}
+	res.render('index');
 }
